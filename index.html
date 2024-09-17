@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المشاريع المنتهية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ab5757;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #333;
+            margin: 30px 0;
+        }
+
+        .projects-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: #69eeec;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 20px;
+            text-align: right;
+        }
+
+        .project-title {
+            font-size: 24px;
+            color: #007bff;
+            margin: 0 0 10px;
+        }
+
+        .project-description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+            min-height: 60px;
+        }
+
+        .project-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .project-button:hover {
+            background-color: #218838;
+        }
+
+        @media (max-width: 768px) {
+            .project-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>المشاريع المنتهية</h1>
+        <div class="projects-grid">
+            <!-- مشروع 1 -->
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNYX7mAJTtVm9yuT8PAHyE7MchvJ7q5Z7Itg&s" alt="مشروع 1" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">مشروع 1</h2>
+                    <p class="project-description">هذا هو وصف المشروع الأول. تم الانتهاء منه بنجاح ويشمل تقنيات حديثة.</p>
+                    <a href="project1.html" class="project-button">التفاصيل</a>
+                </div>
+            </div>
+
+            <!-- مشروع 2 -->
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMX-5NFkOfRVU7YoJUSOIgRPOHYNCKXgU8zA&s" alt="مشروع 2" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">مشروع 2</h2>
+                    <p class="project-description">هذا هو وصف المشروع الثاني. يتضمن هذا المشروع حلولًا مبتكرة.</p>
+                    <a href="project2.html" class="project-button">التفاصيل</a>
+                </div>
+            </div>
+
+            <!-- مشروع 3 -->
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSASkj4brBzxCC7WQNJjyfQkhIc034S33o_Wg&s" alt="مشروع 3" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">مشروع 3</h2>
+                    <p class="project-description">هذا هو وصف المشروع الثالث. تم الانتهاء من هذا المشروع بوقت قياسي.</p>
+                    <a href="project3.html" class="project-button">التفاصيل</a>
+                </div>
+            </div>
+
+            <!-- مشروع 4 -->
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Wv6orNk2xYXCaRG6Pqen9ngWMzmckKq2VQ&s" alt="مشروع 4" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">مشروع 4</h2>
+                    <p class="project-description">هذا هو وصف المشروع الرابع. يعتمد على تقنيات برمجية متقدمة ويستخدم أحدث الأدوات.</p>
+                    <a href="project4.html" class="project-button">التفاصيل</a>
+                </div>
+            </div>
+
+            <!-- مشروع 5 -->
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvWu2g6wMPoEcsVJHT-Q-oA1wwaVQZS7qsDw&s" alt="مشروع 5" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">مشروع 5</h2>
+                    <p class="project-description">هذا هو وصف المشروع الخامس. المشروع يهدف إلى تحسين البنية التحتية الرقمية.</p>
+                    <a href="project5.html" class="project-button">التفاصيل</a>
+                </div>
+            </div>
+
+            <!-- مشروع 6 -->
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMAaZB9Laqy6b4LplZzbs-u-l_yWTAHmGUJg&s" alt="مشروع 6" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">مشروع 6</h2>
+                    <p class="project-description">هذا هو وصف المشروع السادس. يشمل تطوير تطبيقات ذكية متقدمة.</p>
+                    <a href="project6.html" class="project-button">التفاصيل</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
